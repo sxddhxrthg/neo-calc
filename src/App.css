@@ -7,9 +7,26 @@ body {
   min-height: 100vh;
 }
 
+.calculator {
+  padding: 30px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.display {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.row {
+  margin: 10px 0;
+}
+
 button {
   width: 60px;
   height: 60px;
   margin: 4px;
-  font-size: 18px;
+  font-size: 20px;
+  border-radius: 10px;
 }
