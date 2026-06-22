@@ -1,73 +1,114 @@
-# React + TypeScript + Vite
+# NeoCalc
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A futuristic Matrix-inspired calculator built with React, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+![NeoCalc Banner](./public/banner.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Matrix-themed neon UI
+* Cyberpunk-inspired design
+* Smooth hover animations
+* Floating glassmorphism card
+* Responsive layout
+* Keyboard support (coming soon)
+* Matrix rain effect (coming soon)
+* Calculator operations
+* Built with React + TypeScript + Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* React
+* TypeScript
+* Vite
+* CSS3
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Screenshots
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Coming soon.
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sxddhxrthg/neo-calc.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Move into the project:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd neo-calc
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Project Structure
+
+```text
+neo-calc/
+├── public/
+├── src/
+│   ├── App.tsx
+│   ├── App.css
+│   ├── main.tsx
+│   └── index.css
+├── package.json
+└── README.md
+```
+
+---
+
+## Roadmap
+
+* [x] Matrix UI
+* [ ] Centered layout
+* [ ] Calculator logic
+* [ ] Keyboard support
+* [ ] Matrix rain background
+* [ ] Sound effects
+* [ ] Advanced scientific mode
+* [ ] Themes
+
+---
+
+## Inspiration
+
+Inspired by:
+
+* The Matrix
+* Cyberpunk 2077
+* Glassmorphism UI
+* Retro terminal aesthetics
+
+---
+
+## Author
+
+**Siddharth Ganesh**
+
+GitHub: https://github.com/sxddhxrthg
+
+---
+
+## License
+
+MIT License
